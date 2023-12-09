@@ -119,7 +119,7 @@ const Home = () => {
         {/* Cards Grid */}
         <div className="grid grid-cols-3 gap-4 mt-4">
           {convertedValues.map((conversion, index) => (
-            <div key={index} className="p-4 border text-white">
+            <div key={index} className="p-4 border text-black">
               <p>{`${conversion.from} to ${conversion.to}`}</p>
               <p>{`Converted Value: ${conversion.value}`}</p>
             </div>
